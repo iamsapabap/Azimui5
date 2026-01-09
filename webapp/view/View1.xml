@@ -1,0 +1,6 @@
+<mvc:View controllerName="com.demo.b70sapui5az.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+    <Page id="page" title="I am View1 babu">
+    </Page>
+</mvc:View>
