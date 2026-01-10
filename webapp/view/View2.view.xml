@@ -1,0 +1,12 @@
+          <Label text="Employee ID" class="sapUiTinyMarginTop"></Label>
+          <Input ></Input>
+           <Label text="Employee Name" class="sapUiTinyMarginTop"></Label>
+          <Input ></Input>
+           <Label text="Employee Designation" class="sapUiTinyMarginTop"></Label>
+          <Input ></Input>
+           <Label text="Employee Skill" class="sapUiTinyMarginTop"></Label>
+          <Input ></Input>
+           <Label text="Employee Email ID" class="sapUiTinyMarginTop"></Label>
+          <Input ></Input>
+           <Label text="Employee Phone No" class="sapUiTinyMarginTop"></Label>
+          <Input ></Input>
