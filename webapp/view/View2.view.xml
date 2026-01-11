@@ -27,11 +27,28 @@
     <ObjectAttribute  title="Employee ID" text="100001"></ObjectAttribute>
     <ObjectAttribute title="Designation" text="Team Player"></ObjectAttribute>
 </attributes>
-
-
-
 </ObjectHeader>
 
+--------------------------------------------------------------------
+                  
+<statuses>
+<ObjectStatus text="Permanent" state="Success"></ObjectStatus>
+</statuses>
+</ObjectHeader>
+
+<IconTabBar >
+<items>
+<IconTabFilter icon="sap-icon://accessibility">
+<Text text="I am information tab"></Text>
+</IconTabFilter>
+<IconTabFilter icon="sap-icon://notes">
+<Text text="I am notes tab"></Text>
+</IconTabFilter>
+</items>
+</IconTabBar>
+
+----------------------------------------------------
+                  
 <!-- <HBox >
 <Button text="Button1" ></Button>
 <Button text="Button2" ></Button>
