@@ -10,3 +10,66 @@
           <Input ></Input>
            <Label text="Employee Phone No" class="sapUiTinyMarginTop"></Label>
           <Input ></Input>
+
+
+<mvc:View controllerName="com.demo.b69demo.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m" 
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+    <Page id="page" title="I am View 1">
+        <content> 
+
+
+
+<ObjectHeader title="Azim SHaikh" number="2500000" numberUnit="INR" backgroundDesign="Solid">
+<attributes>
+    <ObjectAttribute  title="Employee ID" text="100001"></ObjectAttribute>
+    <ObjectAttribute title="Designation" text="Team Player"></ObjectAttribute>
+</attributes>
+
+
+
+</ObjectHeader>
+
+<!-- <HBox >
+<Button text="Button1" ></Button>
+<Button text="Button2" ></Button>
+</HBox>
+<FlexBox justifyContent="End" alignItems="Center" height="100%">
+<Button text="Go" type="Accept"></Button>
+<Button text="Reset" type="Reject" class="sapUiTinyMarginBegin"></Button>
+
+</FlexBox> -->
+
+          <!-- <Button id="IdButton" text="this is a test"></Button>
+          <Label id="IdLabel" text="test"/>
+           <f:SimpleForm title="Employee Details " editable="true" layout="ResponsiveGridLayout"
+           labelSpanL="5" labelSpanM="5" emptySpanL="0" emptySpanM="0" columnsL="3" columnsM="2">
+     <f:content>
+         <core:Title text ="Basic Details"></core:Title>
+          <Label text="Employee ID"  ></Label>
+          <Input></Input>
+           <Label text="Employee Name"></Label>
+          <Input ></Input>
+           <Label text="Employee Designation" ></Label>
+          <Input ></Input>
+
+          <core:Title text ="Contact Details"></core:Title>
+           <Label text="Employee Email ID" ></Label>
+          <Input ></Input>
+           <Label text="Employee Phone No" ></Label>
+          <Input ></Input>
+
+
+ <core:Title text ="Skills Details"></core:Title>
+                     <Label text="Employee Skill" ></Label>
+          <Input ></Input>
+      </f:content>
+      
+      </f:SimpleForm> -->
+
+
+        </content>
+    </Page>
+</mvc:View>
